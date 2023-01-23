@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+
+}
+
+.asu{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.asu_logo{
+    height: 77px;
+    width: 127px;
+}
+#uni_name {
+    color: rgb(244, 126, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    font-size: 27px;
+    font-weight: 900;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 20px;
+    text-align: center;
+}
+
+span.san{
+    margin-bottom: 4px;
+}
+
+.uppr_side{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mid_side{
+    display: flex;
+}
+
+.cent_img{
+    display: flex;
+   
+}
+
+#main_img {
+    height: 84px;
+    width: 93px;
+    margin-left: 41px;
+    border: 2px solid rgb(238, 153, 6);
+}
+
+.cllg_name {
+    color: rgb(238, 153, 6);
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin-left: 2px;
+    font-size: 15px;
+}
+#stu_name{
+    color: #000000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:rgb(244, 126, 0);
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.num{
+    color: black;
+    font-size: 17px;
+}
+
+.start{
+    margin-right: -1px;
+}
+#issue_date{
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    color: #000000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:rgb(244, 126, 0);
+    margin-left: 77px;
+    text-align: center;
+}
+
+.card{
+    background-color: white;
+    height: 250px;
+    width: 370px;
+    border: 5px solid rgb(238, 153, 6);
+}
+.qr {
+    margin: 0;
+    /* height: 80px; */
+    width: 53%;
+    height: 35px;
+    margin-left: 5px;
+    /* margin-top: 30px; */
+}
+
+ .bottom_sec{
+    display: flex;
+    align-items: center;
+}
+#valid_date {
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    color: black;
+    font-weight: 900;
+    -webkit-text-stroke-color: rgb(244, 126, 0);
+    margin-left: 0px;
+}
